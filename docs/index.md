@@ -26,9 +26,9 @@ Professor Thangavelu>
 
 | **Team Member**        |**Github Links** |
 | ---------------------- | -----------------------|
-| Immanwelle Nadutey #1                |(ImmanwelleNadutey.Github)[https://github.com/Inadutey] |
-| Owen Callaway #2                | (OwenCallaway.GitHub)[https://github.com/turtleoc] |
+| Immanwelle Nadutey #1                |https://github.com/Inadutey|
+| Owen Callaway #2                |https://github.com/turtleoc|
 |Tan Thanh Huynh #3                | link |
 | Landon Kuhman #4                | link |
 
-## testing cause its being annoying
+## testing cause its being annoying. Please stop. But I dont really want to keep having to extend this sentence thing but i gotta make sure its updating fully.
