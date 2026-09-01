@@ -28,7 +28,7 @@ Professor Thangavelu>
 | ---------------------- | -----------------------|
 | Immanwelle Nadutey #1                |https://github.com/Inadutey|
 | Owen Callaway #2                |https://github.com/turtleoc|
-| Landon Kuhman #3                | link |
+| Landon Kuhman #3                |https://github.com/lrkuhman|
 |Tan Thanh Huynh #4                | link |
 | Jaedyn Harris #5              | link |
 
