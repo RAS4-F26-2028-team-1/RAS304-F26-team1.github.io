@@ -28,7 +28,8 @@ Professor Thangavelu>
 | ---------------------- | -----------------------|
 | Immanwelle Nadutey #1                |https://github.com/Inadutey|
 | Owen Callaway #2                |https://github.com/turtleoc|
-|Tan Thanh Huynh #3                | link |
-| Landon Kuhman #4                | link |
+| Landon Kuhman #3                | link |
+|Tan Thanh Huynh #4                | link |
+| Jaedyn Harris #5              | link |
 
 ## testing cause its being annoying. Please stop. But I dont really want to keep having to extend this sentence thing but i gotta make sure its updating fully.
