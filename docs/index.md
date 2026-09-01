@@ -24,10 +24,10 @@ Professor Thangavelu>
 
 ## Team Members Datasheet links
 
-| **Team Member**        |**Ind Datasheet Links** |
+| **Team Member**        |**Github Links** |
 | ---------------------- | -----------------------|
-| Immanwelle Nadutey #1                |("Immanwelle Nadutey")[https://github.com/Inadutey] |
-| Owen Callaway #2                | ("Owen Callaway")[https://github.com/turtleoc] |
+| Immanwelle Nadutey #1                |(ImmanwelleNadutey.Github)[https://github.com/Inadutey] |
+| Owen Callaway #2                | (OwenCallaway.GitHub)[https://github.com/turtleoc] |
 |Tan Thanh Huynh #3                | link |
 | Landon Kuhman #4                | link |
 
