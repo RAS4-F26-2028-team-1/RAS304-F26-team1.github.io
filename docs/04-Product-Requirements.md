@@ -1,4 +1,4 @@
----
+<!-- ---
 title: Product Requirements
 ---
 
@@ -47,4 +47,4 @@ The new product design will be based on that of the AirPods with improvements ba
 ## Open Questions
 
 * Can we move towards a recyclable and repairable product, for example, with ZIF connectors and glue-free assembly?
-* Can we improve on failing or self-igniting batteries?
+* Can we improve on failing or self-igniting batteries? -->

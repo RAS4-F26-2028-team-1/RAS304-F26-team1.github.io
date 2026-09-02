@@ -10,7 +10,7 @@ title: Communication and Team Organization
 | Owen Callaway #2                |909-762-0864|
 | Landon Kuhman #3                |4-805-480-4800|
 |Tan Thanh Huynh #4                |801-913-7021|
-| Jaedyn Harris #5              | link |
+| Jaedyn Harris #5              |240-708-5015|
 
 
 ## How will we communicate:

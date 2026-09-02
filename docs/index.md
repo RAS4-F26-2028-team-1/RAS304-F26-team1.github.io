@@ -16,10 +16,10 @@ Professor Thangavelu>
 
 </center>
 
-## Team Introduction
+<!-- ## Team Introduction
 > This will be updated as part of the preparation for the External Review.<br>
 >    * This needs to be updated to reflect a team introduction.<br>
->    * Content should also help an unfamiliar reader navigate to areas of interest.
+>    * Content should also help an unfamiliar reader navigate to areas of interest. -->
 
 
 ## Team Members Datasheet links
