@@ -1,3 +1,5 @@
+## Not yet used!
+
 <!-- ---
 title: Team Block Diagram
 ---
@@ -27,7 +29,7 @@ _Italic Text_
 ![showcase](../image/innovation_showcase_Sp-2025.jpg)  
 **Figure 3:** Innovation Showcase Spring '25, where the products were a STEM-themed display that demonstrates a single scientific/engineering concept with the intended user of K-12 students interested in learning about science, technology, engineering, or math. -->
 
-
+<!-- 
 ## Results
 
 1. Numbered Point 1
@@ -56,4 +58,4 @@ _Italic Text_
 
 ## References
 
- -->
+ --> -->
