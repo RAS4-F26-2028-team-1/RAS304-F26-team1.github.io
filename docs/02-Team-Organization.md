@@ -7,14 +7,20 @@ tags:
 
 ## Team Charter
 
-From the ... which can be reviewed in ["Appendix: Team Organization"](https://embedded-systems-design.github.io/EGR304TeamTemplate/Appendix/App-Team-Org/), the team's charter formed to be (showing ASU's Charter as an Example):
+Our five discussed goals are: 
 
-> "ASU is a comprehensive public research university, measured not by whom it excludes, but by whom it includes and how they succeed; advancing research and discovery of public value; and assuming fundamental responsibility for the economic, social, cultural and overall health of the communities it serves." (ASU's Charter)
+> 1. Improve our understanding of mechantronics.
+> 2. Design a project that is simplistic and efficient.
+> 3. Discuss and learn with the company of other engineers; gaining their perspective.
+> 4. Gain confidence in our ability to complete a project from start to finish.
+> 5. Through this design we can become recognized in regenerative breaking technology.
 
 ## Product Mission Statement
 
-Describe the distilled purpose, function, or reason for your product to exist. From this form a team mission statement. Google's mission statement is:
+Our mission is to create our dc motor driver with integrated brake chopper/regen protection.:
 
- > "Google's mission is to organize the world's information and make it universally accessible and useful."
+ > This is to make sure that our RC cars are more efficient and create a cheaper and reliable motor driver that is protected from back EMF/Regen current.
 
 ## Testing this page
+
+## testing number 14 burger king

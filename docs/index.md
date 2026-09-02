@@ -31,5 +31,3 @@ Professor Thangavelu>
 | Landon Kuhman #3                |https://github.com/lrkuhman|
 |Tan Thanh Huynh #4                | link |
 | Jaedyn Harris #5              | link |
-
-## testing cause its being annoying. Please stop. But I dont really want to keep having to extend this sentence thing but i gotta make sure its updating fully.
