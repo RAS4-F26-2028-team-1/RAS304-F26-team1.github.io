@@ -38,6 +38,8 @@ Are there any other procedures that your team feels are necessary? Describe them
 
 ## Division of Responsibility
 
+| **Team Member**        |**Initial Role** |
+| ---------------------- | -----------------------|
 | Immanwelle Nadutey #1                |Meeting leader|
 | Owen Callaway #2                |Assignment leader|
 | Landon Kuhman #3                |Meeting recorder|
@@ -47,8 +49,10 @@ Are there any other procedures that your team feels are necessary? Describe them
 
 How will you guysdecide whos in what roll?
 > These are our assumed roles. Upon the beginning of each project we will spend our next meeting time dividing our tasks and roles. This will be done through a simple conversation and deciding whos skills are most relevant.
+
 How will you guys keep things organized?
 > We will catalogue all of our activity inside of our discord server. Allowing a strong "archive" for us to store our information.
+
 What if theres an issue?
 > If its a technical issue of course we will attempt it to the best of our ability before asking the professor. If it is a inter personal issue we will contact the professor immedietly.
 
