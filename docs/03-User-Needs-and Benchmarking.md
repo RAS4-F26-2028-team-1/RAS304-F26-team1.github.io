@@ -40,11 +40,11 @@ Are there any other procedures that your team feels are necessary? Describe them
 
 | **Team Member**        |**Initial Role** |
 | ---------------------- | -----------------------|
-| Immanwelle Nadutey #1                |Meeting leader|
-| Owen Callaway #2                |Assignment leader|
-| Landon Kuhman #3                |Meeting recorder|
-|Tan Thanh Huynh #4                |Project monitor|
-| Jaedyn Harris #5              |Communication Manager|
+| Immanwelle Nadutey                |Meeting leader|
+| Owen Callaway                |Assignment leader|
+| Landon Kuhman               |Meeting recorder|
+|Tan Thanh Huynh               |Project monitor|
+| Jaedyn Harris              |Communication Manager|
 
 
 How will you guysdecide whos in what roll?
