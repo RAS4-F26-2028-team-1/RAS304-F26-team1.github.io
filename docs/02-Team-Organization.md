@@ -20,7 +20,3 @@ Our five discussed goals are:
 Our mission is to create our dc motor driver with integrated brake chopper/regen protection.:
 
  > This is to make sure that our RC cars are more efficient and create a cheaper and reliable motor driver that is protected from back EMF/Regen current.
-
-## Testing this page
-
-## testing number 14 burger king
