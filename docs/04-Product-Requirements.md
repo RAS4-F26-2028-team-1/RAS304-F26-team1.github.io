@@ -6,3 +6,14 @@
 
 # Our Sorted "Scraps"
 
+<img src="image/image.jpg"
+     style="transform: rotate(90deg); width: 1000px;">
+
+<img src="image2/image.jpg"
+     style="transform: rotate(90deg); width: 1000px;">
+
+<img src="image/image3.jpg"
+     style="transform: rotate(90deg); width: 1000px;">
+
+<img src="image/image4.jpg"
+     style="transform: rotate(90deg); width: 1000px;">
