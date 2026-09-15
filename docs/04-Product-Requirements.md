@@ -12,12 +12,12 @@
 
 # Our Sorted Ideas:
 
-<img src="image/1.jpg" alt="Sorted ideas 1" style="transform: rotate(90deg); width: 400px;">
+![Sorted ideas](image/1.jpg){style="transform: rotate(90deg); width: 400px;"}
 
-<img src="image/2.jpg" alt="Sorted ideas 2" style="transform: rotate(90deg); width: 400px;">
+![Sorted ideas](image/2.jpg){style="transform: rotate(90deg); width: 400px;"}
 
-<img src="image/3.jpg" alt="Sorted ideas 3" style="transform: rotate(90deg); width: 400px;">
+![Sorted ideas](image/3.jpg){style="transform: rotate(90deg); width: 400px;"}
 
-<img src="image/4.jpg" alt="Sorted ideas 4" style="transform: rotate(90deg); width: 400px;">
+![Sorted ideas](image/4.jpg){style="transform: rotate(90deg); width: 400px;"}
 
 > We chose to create our list on a google doc then print and cut all of our ideas.
