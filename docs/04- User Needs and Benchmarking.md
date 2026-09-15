@@ -12,13 +12,9 @@
 
 # Our Sorted Ideas:
 
-![Sorted ideas](image/1.jpg){style="transform: rotate(90deg); width: 400px;"}
-
-![Sorted ideas](image/2.jpg){style="transform: rotate(90deg); width: 400px;"}
-
-![Sorted ideas](image/3.jpg){style="transform: rotate(90deg); width: 400px;"}
-
-![Sorted ideas](image/4.jpg){style="transform: rotate(90deg); width: 400px;"}
+| Unorganized | Categorized | Sorted |
+| :---: | :---: | :---: |
+| ![Sorted ideas](image/1.jpg){style="transform: rotate(270deg); width: 400px;"} | ![Sorted ideas](image/2.jpg){style="transform: rotate(270deg); width: 400px;"} | ![Sorted ideas](image/4.jpg){style="transform: rotate(270deg); width: 400px;"} |
 
 > We chose to create our list on a google doc then print and cut all of our ideas.
 
