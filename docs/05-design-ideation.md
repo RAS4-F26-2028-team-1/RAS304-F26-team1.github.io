@@ -26,4 +26,4 @@
 ## Our Video
 >DISCLOSURE: Our video has been created using the assistance of AI.
 
-<a href="image/OpenField_Ad.mp4" target="_blank">Watch Our Ad!</a>
+[Watch Our Ad!](image/OpenField_Ad.mp4){target="_blank"}
