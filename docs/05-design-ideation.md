@@ -1,13 +1,6 @@
-## Not yet used!
-
-<!-- ---
-title: Design Ideation
----
-
 ## Intro/overview
 
-Lorem markdownum gradus, qui largis, nec pater pleno: fatum. Adspexit cursus
-cur, aut in adhuc crimina **habebat**: pro.
+> The goal of this section was to create, organize, and develop a large set of possible features for our team’s robotics project, then combine the strongest ideas into three distinct product concepts that visually demonstrate how our design could meet the project’s user needs and technical requirements.
 
 ## Generating Ideas
 
