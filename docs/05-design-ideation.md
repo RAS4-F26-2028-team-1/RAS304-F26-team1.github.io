@@ -29,3 +29,12 @@
 <video width="700" controls>
   <source src="image/OpenField_Ad.mp4" type="video/mp4">
 </video>
+
+## test method 2
+
+[CLICK HERE TO TEST VIDEO](image/OpenField_Ad.mp4)
+
+## test method 3
+
+<video width="700" controls src="image/OpenField_Ad.mp4">
+</video>
