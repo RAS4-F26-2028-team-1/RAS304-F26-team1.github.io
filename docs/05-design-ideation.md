@@ -27,5 +27,5 @@
 >DISCLOSURE: Our video has been created using the assistance of AI.
 
 <video width="700" controls>
-  <source src="video/OpenField_Ad.mp4" type="video/mp4">
+  <source src="image/OpenField_Ad.mp4" type="video/mp4">
 </video>
