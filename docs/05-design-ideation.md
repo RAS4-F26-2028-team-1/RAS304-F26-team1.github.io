@@ -16,7 +16,7 @@
 
 | CAD Model |
 | :---: |
-| ![Image 3](image/DesignIderation3.jpg) |
+| ![Image 3](image/DesignIderation3.jpg){style="width: 600px; height: auto;"} |
 
 | 3D Print |
 | :---: |
