@@ -26,4 +26,6 @@
 ## Our Video
 >DISCLOSURE: Our video has been created using the assistance of AI.
 
-Embedded a YouTube video that covers the  -->
+<video width="700" controls>
+  <source src="video/OpenField_Ad.mp4" type="video/mp4">
+</video>
