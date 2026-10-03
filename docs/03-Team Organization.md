@@ -60,7 +60,3 @@ What if theres an issue?
 
 > We all as a group collectively agree to maintain civil interaction over the course of the coming semester.
 
-## Block Diagram
-
-
-| ![IMAGE1](image/BlockDiagram.png){style="width: 1000px; height: auto;"} |
