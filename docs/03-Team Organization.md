@@ -63,4 +63,4 @@ What if theres an issue?
 ## Block Diagram
 
 
-| ![IMAGE1](image/Group101_Block_Diagram_-_RAS304.drawio.png){style="width: 1000px; height: auto;"} |
+| ![IMAGE1](image/BlockDiagram.png){style="width: 1000px; height: auto;"} |
