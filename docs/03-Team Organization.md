@@ -59,3 +59,8 @@ What if theres an issue?
 ## Conflict Recognition & Resolution Agreement
 
 > We all as a group collectively agree to maintain civil interaction over the course of the coming semester.
+
+## Block Diagram
+
+
+| ![IMAGE1](image/Group101_Block_Diagram_-_RAS304.drawio.png){style="width: 1000px; height: auto;"} |
