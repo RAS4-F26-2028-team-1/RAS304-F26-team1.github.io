@@ -17,13 +17,16 @@
 | CAD Model |
 | :---: |
 | ![Image 3](image/DesignIderation3.png){style="width: 800px; height: auto;"} |
+> Modeled in Fusion360 by Tan Thanh Huynh.
+
 
 | 3D Print |
 | :---: |
 | ![Image 4](image/DesignIderation4.jpg) |
-
+> Printed with PLA by Landon Kuhman
 
 ## Our Video
->DISCLOSURE: Our video has been created using the assistance of AI.
 
 [Watch Our Ad!](image/OpenField_Ad.mp4){target="_blank"}
+
+> DISCLOSURE: Our video has been created using the assistance of AI.
