@@ -21,6 +21,10 @@ Professor Thangavelu>
 >    * This needs to be updated to reflect a team introduction.<br>
 >    * Content should also help an unfamiliar reader navigate to areas of interest. -->
 
+## Report Sections
+
+- [Software Proposal](07-Software%20Proposal.md)
+
 ## Team Members Datasheet links
 
 | **Team Member**        |**Github Links** |
