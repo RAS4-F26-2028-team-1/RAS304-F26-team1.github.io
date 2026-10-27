@@ -6,13 +6,13 @@ tags:
 ---
 
 <center>
-<font size="8">Project X<br>
-<font size="5">Team 1<br>
-**Submission: 08, 31, 2028**<br>
+<font size="8">Project OpenField<br>
+<font size="5">Team 101<br>
+**Submission: 10, 27, 2026**<br>
 Fall 26<br>
 <font size="4">Arizona State University<br>
-**RASs 304**<br>
-Professor Thangavelu>
+**RAS 304**<br>
+Professor Thangavelu
 
 </center>
 
