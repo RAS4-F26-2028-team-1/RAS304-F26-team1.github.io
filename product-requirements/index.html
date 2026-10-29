@@ -1,0 +1,1587 @@
+<!DOCTYPE html><html lang="en" class="no-js"><head>
+    
+
+<meta name="robots" content="nofollow">
+
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://ras4-f26-2028-team-1.github.io/RAS304-F26-team1.github.io/product-requirements/">
+      
+      
+        <link rel="prev" href="../04-%20User%20Needs%20and%20Benchmarking/">
+      
+      
+        <link rel="next" href="../05-design-ideation/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../static/logo304.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.0">
+            
+
+    
+
+    
+      
+        <title>Product Requirements - Team 101 - Project OpenField</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.57a0d79d.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.fb2fffe2.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+
+
+  <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#product-requirements" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Team 101 - Project OpenField" class="md-header__button md-logo" aria-label="Team 101 - Project OpenField" data-md-component="logo">
+      
+  <img src="../static/logo304.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Team 101 - Project OpenField
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Product Requirements
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required="">
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix="">
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/RAS4-F26-2028-team-1/RAS304-F26-team1.github.io" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../02-Team-Organization/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Team Organization
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../04-%20User%20Needs%20and%20Benchmarking/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  User Needs and Benchmarking
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Product Requirements
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../05-design-ideation/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Design Ideation
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../06-team-block-diagram/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Team Block Diagram
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../07-Software%20Proposal/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Software Proposal
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Team 101 - Project OpenField" class="md-nav__button md-logo" aria-label="Team 101 - Project OpenField" data-md-component="logo">
+      
+  <img src="../static/logo304.svg" alt="logo">
+
+    </a>
+    Team 101 - Project OpenField
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/RAS4-F26-2028-team-1/RAS304-F26-team1.github.io" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix="">
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02-Team-Organization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Team Organization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04-%20User%20Needs%20and%20Benchmarking/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Needs and Benchmarking
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Product Requirements
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Product Requirements
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#project-objective" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Project Objective
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stakeholders" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stakeholders
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#use-cases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Use Cases
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Use Cases">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#use-case-1-marking-wall-lines-on-a-new-homes-slab" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Use Case 1: Marking wall lines on a new home's slab
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use-case-2-marking-on-rough-ground-before-the-slab-is-poured" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Use Case 2: Marking on rough ground before the slab is poured
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#design-aspects" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Design Aspects
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Design Aspects">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hardware-product-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hardware / Product Design
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#software-functionality" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Software / Functionality
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interactivity-and-user-experience" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Interactivity and User Experience
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#customization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Customization
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#manufacturing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Manufacturing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#safety" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Safety
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requirement-criteria-specifications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Requirement Criteria Specifications
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Requirement Criteria Specifications">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#performance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Performance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mobility" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mobility
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#environmental" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Environmental
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#safety_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Safety
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#software-and-communication" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Software and Communication
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#manufacturing-and-customization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Manufacturing and Customization
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#open-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Open Questions
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05-design-ideation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Design Ideation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06-team-block-diagram/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Team Block Diagram
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07-Software%20Proposal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Software Proposal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#project-objective" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Project Objective
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stakeholders" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stakeholders
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#use-cases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Use Cases
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Use Cases">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#use-case-1-marking-wall-lines-on-a-new-homes-slab" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Use Case 1: Marking wall lines on a new home's slab
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use-case-2-marking-on-rough-ground-before-the-slab-is-poured" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Use Case 2: Marking on rough ground before the slab is poured
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#design-aspects" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Design Aspects
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Design Aspects">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hardware-product-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hardware / Product Design
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#software-functionality" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Software / Functionality
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interactivity-and-user-experience" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Interactivity and User Experience
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#customization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Customization
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#manufacturing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Manufacturing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#safety" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Safety
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requirement-criteria-specifications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Requirement Criteria Specifications
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Requirement Criteria Specifications">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#performance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Performance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mobility" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mobility
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#environmental" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Environmental
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#safety_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Safety
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#software-and-communication" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Software and Communication
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#manufacturing-and-customization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Manufacturing and Customization
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#open-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Open Questions
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/RAS4-F26-2028-team-1/RAS304-F26-team1.github.io/edit/main/docs/product-requirements.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg>
+    </a>
+  
+  
+
+
+<h1 id="product-requirements">Product Requirements</h1>
+<h2 id="project-objective">Project Objective</h2>
+<blockquote>
+<p><strong>Objective:</strong> Build a working prototype of OpenField, an open-source autonomous robot that drives over a construction floor or job site and sprays layout marks where the plan says they belong. The prototype should show that an affordable, modular robot can mark a layout safely and repeatably, as a low-cost alternative to commercial layout robots that cost tens of thousands of dollars.</p>
+</blockquote>
+<h2 id="stakeholders">Stakeholders</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Stakeholder</strong></th>
+<th><strong>What they need from OpenField</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Operators (layout crews, builders)</td>
+<td>A robot that is quick to set up, marks accurately, and is safe to run around other workers.</td>
+</tr>
+<tr>
+<td>Maintainers</td>
+<td>Modular parts that are easy to diagnose, swap, and reprint.</td>
+</tr>
+<tr>
+<td>Firmware Leads</td>
+<td>Open, well-documented firmware they can extend.</td>
+</tr>
+<tr>
+<td>Hardware Leads</td>
+<td>Standard connectors, off-the-shelf parts, and published design files.</td>
+</tr>
+<tr>
+<td>Construction companies (buyers)</td>
+<td>A much lower cost than commercial layout robots, with no subscription.</td>
+</tr>
+</tbody>
+</table>
+<p>See <a href="../04-%20User%20Needs%20and%20Benchmarking/">User Needs and Benchmarking</a> for where each stakeholder's voice came from.</p>
+<h2 id="use-cases">Use Cases</h2>
+<h3 id="use-case-1-marking-wall-lines-on-a-new-homes-slab">Use Case 1: Marking wall lines on a new home's slab</h3>
+<ol>
+<li>A layout crew member carries OpenField onto a finished concrete slab and sets it at the starting point.</li>
+<li>The operator powers it on. The Master board starts every subsystem and shows <strong>Ready</strong> on the LCD. If a board does not respond, the LCD shows an error instead.</li>
+<li>The operator uses the dial to start the layout.</li>
+<li>OpenField drives along the planned lines. The LiDAR board watches for obstacles, and the Cliff board watches for drop-offs, such as an open stairwell.</li>
+<li>While the robot is on a planned line, the Master tells the Spray board to mark the floor.</li>
+<li>If a worker steps in front of the robot, it stops and waits. It continues once the path is clear.</li>
+<li>When the layout is done, the LCD shows <strong>Complete</strong>, and the crew starts framing walls on the marked lines.</li>
+</ol>
+<h3 id="use-case-2-marking-on-rough-ground-before-the-slab-is-poured">Use Case 2: Marking on rough ground before the slab is poured</h3>
+<ol>
+<li>A crew needs reference marks on a graded dirt or grass site, before the foundation is poured.</li>
+<li>OpenField's treads keep traction on loose and uneven ground, where a wheeled robot would slip.</li>
+<li>The robot marks the planned points while the Cliff board keeps it away from trenches and excavation edges.</li>
+<li>At the end of the day, a maintainer finds the spray actuator worn. Because each subsystem plugs into the Master with the same ribbon connector, they unplug the Spray board, replace the part, and plug it back in without touching the other boards.</li>
+</ol>
+<h2 id="design-aspects">Design Aspects</h2>
+<h3 id="hardware-product-design">Hardware / Product Design</h3>
+<ul>
+<li>Tracked (tread) chassis for traction on concrete, dirt, gravel, and grass.</li>
+<li>Five PIC18F57Q43 Curiosity Nano boards: a Master plus LiDAR, Cliff, Motor Driver, and Spray subsystems (see the <a href="../06-team-block-diagram/">Team Block Diagram</a>).</li>
+<li>Each subsystem connects to the Master through an 8-pin ribbon cable.</li>
+<li>3D-printed body parts with off-the-shelf fasteners.</li>
+</ul>
+<h3 id="software-functionality">Software / Functionality</h3>
+<ul>
+<li>Every board runs a continuous Read → Think → Output loop (see the <a href="../07-Software%20Proposal/">Software Proposal</a>).</li>
+<li>Only the Master makes decisions. Subsystem boards report sensor data or carry out commands.</li>
+<li>The robot only drives and sprays when the LiDAR and Cliff checks are both clear.</li>
+</ul>
+<h3 id="interactivity-and-user-experience">Interactivity and User Experience</h3>
+<ul>
+<li>An LCD shows the robot's state (ready, running, complete, error) and low-battery warnings.</li>
+<li>A dial lets the operator start, pause, and select options without a laptop.</li>
+<li>Clear error messages tell the operator which subsystem has a problem.</li>
+</ul>
+<h3 id="customization">Customization</h3>
+<ul>
+<li>Open-source firmware and design files, so users can change behavior or add features.</li>
+<li>Modular subsystem boards on standard connectors, so new tools (such as a different marker) can be swapped in.</li>
+</ul>
+<h3 id="manufacturing">Manufacturing</h3>
+<ul>
+<li>Off-the-shelf development boards, sensors, and fasteners.</li>
+<li>3D-printed parts that can be reprinted when broken.</li>
+<li>Design files published so others can build their own.</li>
+</ul>
+<h3 id="safety">Safety</h3>
+<ul>
+<li>Obstacle detection with the LiDAR, and drop-off detection with the cliff sensors.</li>
+<li>An emergency stop that halts all motion and spraying.</li>
+<li>Safe start-up: the robot will not move if any subsystem fails to respond.</li>
+<li>The sprayer only runs while the Master's signal is active.</li>
+</ul>
+<h2 id="requirement-criteria-specifications">Requirement Criteria Specifications</h2>
+<p>Each requirement has a measurable target, the user need it comes from, and how we will verify it. Need numbers (#) refer to our <a href="../04-%20User%20Needs%20and%20Benchmarking/#our-75-user-needs">75 user needs</a>, and B-numbers refer to needs found in benchmarking.</p>
+<p><strong>Verification methods:</strong> <strong>Test</strong> (measured trial), <strong>Demonstration</strong> (shown working), <strong>Inspection</strong> (checked by looking or measuring), <strong>Analysis</strong> (calculated or checked against datasheets).</p>
+<h3 id="performance">Performance</h3>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Requirement</th>
+<th>Target</th>
+<th>Source Need</th>
+<th>Verification</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PR-1</td>
+<td>Marking accuracy</td>
+<td>Each mark within <strong>±3 cm</strong> of its planned position over a 3 m × 3 m test area</td>
+<td>#21, B23</td>
+<td><strong>Test:</strong> Mark 10 planned points, then measure each one's error from the reference with a tape measure.</td>
+</tr>
+<tr>
+<td>PR-2</td>
+<td>Battery runtime</td>
+<td>At least <strong>4 hours</strong> of continuous operation</td>
+<td>#31</td>
+<td><strong>Test:</strong> Run continuously from a full charge until shutdown.</td>
+</tr>
+<tr>
+<td>PR-3</td>
+<td>Low-battery warning</td>
+<td>LCD warning at or below <strong>20%</strong> battery</td>
+<td>#35</td>
+<td><strong>Demonstration:</strong> Run the battery down and confirm the warning appears.</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Why ±3 cm:</strong> Commercial layout robots reach 1/16 inch (about 1.6 mm), but they rely on laser trackers or robotic total stations that cost thousands of dollars (<a href="../04-%20User%20Needs%20and%20Benchmarking/#voice-of-the-customer-benchmarking">benchmarking</a>). Our prototype positions itself with LiDAR and motor encoders, so ±3 cm is a realistic target for this stage. Reaching the 1/16-inch tolerance in need #21 remains a long-term goal.</p>
+</blockquote>
+<h3 id="mobility">Mobility</h3>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Requirement</th>
+<th>Target</th>
+<th>Source Need</th>
+<th>Verification</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PR-4</td>
+<td>Climb inclines</td>
+<td>Drives up slopes of at least <strong>2.5°</strong> without slipping</td>
+<td>#14</td>
+<td><strong>Test:</strong> Drive up a ramp set to 2.5°.</td>
+</tr>
+<tr>
+<td>PR-5</td>
+<td>Cross rough floors</td>
+<td>Drives over bumps up to <strong>2 cm</strong> high</td>
+<td>#15</td>
+<td><strong>Test:</strong> Drive over a 2 cm board.</td>
+</tr>
+<tr>
+<td>PR-6</td>
+<td>Fit through doorways</td>
+<td>Total width of <strong>30 in (76 cm)</strong> or less</td>
+<td>#42</td>
+<td><strong>Inspection:</strong> Measure the robot's width.</td>
+</tr>
+<tr>
+<td>PR-7</td>
+<td>One-person carry</td>
+<td>Total weight of <strong>50 lb (22.7 kg)</strong> or less</td>
+<td>#43</td>
+<td><strong>Inspection:</strong> Weigh the robot.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="environmental">Environmental</h3>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Requirement</th>
+<th>Target</th>
+<th>Source Need</th>
+<th>Verification</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PR-8</td>
+<td>Operating temperature</td>
+<td>Operates from <strong>14 °F to 122 °F</strong> (−10 °C to 50 °C)</td>
+<td>#12, B14</td>
+<td><strong>Analysis:</strong> Check every component's rated temperature range on its datasheet.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="safety_1">Safety</h3>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Requirement</th>
+<th>Target</th>
+<th>Source Need</th>
+<th>Verification</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PR-9</td>
+<td>Obstacle stop</td>
+<td>Stops at least <strong>30 cm</strong> before an obstacle in its path</td>
+<td>#1, #60</td>
+<td><strong>Test:</strong> Place an object in the path, 10 trials. Measure the stopping distance each time.</td>
+</tr>
+<tr>
+<td>PR-10</td>
+<td>Drop-off stop</td>
+<td>Stops before any drop of more than <strong>5 cm</strong>, with no part of the treads past the edge</td>
+<td>#3, #65</td>
+<td><strong>Test:</strong> Drive toward a table edge, 10 trials.</td>
+</tr>
+<tr>
+<td>PR-11</td>
+<td>Emergency stop</td>
+<td>Halts all motion and spraying within <strong>1 second</strong></td>
+<td>#61</td>
+<td><strong>Test:</strong> Press the stop and time how long it takes the robot to halt.</td>
+</tr>
+<tr>
+<td>PR-12</td>
+<td>Spray control</td>
+<td>Sprayer turns off within <strong>0.5 seconds</strong> after the Master's spray signal ends</td>
+<td>#29</td>
+<td><strong>Test:</strong> Time the delay between the signal ending and the spray stopping.</td>
+</tr>
+<tr>
+<td>PR-13</td>
+<td>Safe start-up</td>
+<td>Robot does not move if any subsystem fails to respond during start-up</td>
+<td>#64</td>
+<td><strong>Demonstration:</strong> Unplug one board before power-on, and confirm the robot stays still and shows an error.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="software-and-communication">Software and Communication</h3>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Requirement</th>
+<th>Target</th>
+<th>Source Need</th>
+<th>Verification</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PR-14</td>
+<td>Detect lost boards</td>
+<td>Master detects a disconnected subsystem within <strong>1 second</strong> and names it on the LCD</td>
+<td>#55, #58</td>
+<td><strong>Demonstration:</strong> Unplug a ribbon cable during operation.</td>
+</tr>
+<tr>
+<td>PR-15</td>
+<td>Status display</td>
+<td>LCD shows the current state: <strong>ready, running, complete, or error</strong></td>
+<td>#56, #62</td>
+<td><strong>Demonstration:</strong> Step through each state.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="manufacturing-and-customization">Manufacturing and Customization</h3>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Requirement</th>
+<th>Target</th>
+<th>Source Need</th>
+<th>Verification</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PR-16</td>
+<td>Standard parts</td>
+<td>All fasteners are standard off-the-shelf sizes, and all custom parts can be 3D printed</td>
+<td>#68, #71</td>
+<td><strong>Inspection:</strong> Review the bill of materials.</td>
+</tr>
+<tr>
+<td>PR-17</td>
+<td>Swappable subsystems</td>
+<td>Any subsystem board can be unplugged and replaced in <strong>under 5 minutes</strong> without tools</td>
+<td>#50, #70</td>
+<td><strong>Test:</strong> Time a board swap.</td>
+</tr>
+<tr>
+<td>PR-18</td>
+<td>Open source</td>
+<td>Firmware and design files are published on GitHub</td>
+<td>#75</td>
+<td><strong>Inspection:</strong> Check the public repositories.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="open-questions">Open Questions</h2>
+<ol>
+<li><strong>Positioning:</strong> Can LiDAR and motor encoders alone hold ±3 cm over a full layout, or will we need extra reference markers or a total station?</li>
+<li><strong>Tread slip:</strong> How much do the treads slip on smooth concrete, and how much does that hurt accuracy?</li>
+<li><strong>Marking medium:</strong> Which spray paint or marker works best on both concrete and dirt, and how do we keep it from clogging?</li>
+<li><strong>Loading the plan:</strong> How will layouts get onto the robot? Right now, the operator only has the LCD and dial.</li>
+<li><strong>Power:</strong> What battery type and capacity do we need to reach 4 hours, given the motors' current draw? Each teammate's power budget will help answer this.</li>
+<li><strong>Cost:</strong> What is a realistic total parts cost for the prototype?</li>
+</ol>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden="">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer">
+        
+          
+          <a href="../04-%20User%20Needs%20and%20Benchmarking/" class="md-footer__link md-footer__link--prev" aria-label="Previous: User Needs and Benchmarking">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                User Needs and Benchmarking
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../05-design-ideation/" class="md-footer__link md-footer__link--next" aria-label="Next: Design Ideation">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Design Ideation
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"></path></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright © 2026 Team 101 - Project OpenField
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky", "toc.follow", "navigation.top", "navigation.path", "navigation.indexes", "navigation.prune", "content.action.edit", "navigation.footer"], "search": "../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.c21346df.min.js"></script>
+      
+        <script src="../javascripts/mathjax.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>
