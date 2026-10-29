@@ -44,8 +44,8 @@ title: Team Organization
 
 ## Meetings
 
-> **Monday:** 4:00–6:00 pm
-> **Friday:** 9:30–11:30 am
+> - **Monday:** 4:00–6:00 pm
+> - **Friday:** 9:30–11:30 am
 
 - **Format:** Face to face, at the ASU Polytechnic dining hall or student union.
 - **Reminders:** The group chat. We hold each other accountable for attending.

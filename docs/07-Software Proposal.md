@@ -19,6 +19,7 @@ This page describes the planned logical behavior of the software running on each
 ## Software Diagram
 
 ![Software activity diagrams for all subsystems](image/SoftwareProposal.png)
+
 **Figure 1:** UML activity diagrams for the Master, LiDAR, Cliff, Motor Driver, and Spray microcontrollers. Click the image to enlarge.
 
 Diagram source file: [SoftwareProposal.drawio](image/SoftwareProposal.drawio) (open it with [draw.io](https://app.diagrams.net) using *File → Open from → Device*).

@@ -5,6 +5,7 @@ title: Team Block Diagram
 # Team Block Diagram
 
 ![OpenField team block diagram](image/BlockDiagram.png)
+
 **Figure 1:** Team block diagram for Project OpenField, showing the Master board and the four subsystem boards. Click the image to enlarge.
 
 ## How the System Is Connected

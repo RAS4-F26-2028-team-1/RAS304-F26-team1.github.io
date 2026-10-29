@@ -1,9 +1,31 @@
-This is a template to help you get started with the team's GitHub Report. Use this template to help guide your team through the initial setup process.
+# Project OpenField: Team 101 Report
 
-You will need to add additional files per team assignment.
+Team report website for **RAS 304, Fall 2026** (Arizona State University).
 
-# Remove ALL unused ITEMS currently in the Appendix before submitting the report for the External review!
-The three items currently there are placeholders and could serve as possible resources.
+OpenField is an open-source, affordable autonomous robot that marks construction layouts directly onto new home foundations.
 
-## Tips if the template does not initially publish/update correctly:
-If yo have issues with deploying your website, please check [settings](https://ras-embedded-systems-tutorials.pages.dev/fork-report-website/#help-my-site-is-not-building).
+**Live site:** https://ras4-f26-2028-team-1.github.io/RAS304-F26-team1.github.io/
+
+## Team
+
+| Member | Subsystem |
+| --- | --- |
+| Immanwelle (Mimi) Nadutey | Motor Driver |
+| Owen Callaway | Master |
+| Landon Kuhman | LiDAR |
+| Tan Thanh Huynh | Spray |
+| Jaedyn Harris | Cliff Sensor |
+
+## Repository Layout
+
+- `docs/`: website pages (Markdown)
+- `docs/image/`: images, diagrams, diagram source files, and video
+- `mkdocs.yml`: site settings and page order
+- `.github/workflows/pages.yml`: builds and publishes the site on every push to `main`
+
+## Building Locally
+
+```
+pip install -r requirements.txt
+mkdocs serve
+```

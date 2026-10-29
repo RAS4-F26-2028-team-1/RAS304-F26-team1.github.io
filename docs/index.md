@@ -3,14 +3,13 @@ title: Home
 ---
 
 <center>
-<font size="8">Project OpenField<br>
+<font size="8">Project OpenField</font><br>
 <font size="5">Team 101<br>
-**Submission: 10, 27, 2026**<br>
-Fall 26<br>
+<b>Submission: 10, 29, 2026</b><br>
+Fall 26</font><br>
 <font size="4">Arizona State University<br>
-**RAS 304**<br>
-Professor Thangavelu
-
+<b>RAS 304</b><br>
+Professor Thangavelu</font>
 </center>
 
 ## Project Summary
@@ -20,10 +19,11 @@ Project OpenField is an open-source, affordable autonomous robot that marks cons
 ## Report Sections
 
 1. [Team Organization](02-Team-Organization.md): mission statement, charter, roles, and how we work together
-2. [User Needs and Benchmarking](04-%20User%20Needs%20and%20Benchmarking.md): stakeholders, expert interview, and our 75 user needs
-3. [Design Ideation](05-design-ideation.md): brainstorming, how we chose our concept, and our concept model
-4. [Team Block Diagram](06-team-block-diagram.md): how the five boards connect and why
-5. [Software Proposal](07-Software%20Proposal.md): how each board's software works and why
+2. [User Needs and Benchmarking](04-%20User%20Needs%20and%20Benchmarking.md): stakeholders, expert interview, competitor benchmarking, and our 75 user needs
+3. [Product Requirements](product-requirements.md): use cases, design aspects, and measurable requirements
+4. [Design Ideation](05-design-ideation.md): brainstorming, how we chose our concept, and our concept model
+5. [Team Block Diagram](06-team-block-diagram.md): how the five boards connect and why
+6. [Software Proposal](07-Software%20Proposal.md): how each board's software works and why
 
 ## Team Member Datasheets
 

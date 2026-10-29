@@ -2,6 +2,15 @@ site_name: Team 101 - Project OpenField
 site_url: https://ras4-f26-2028-team-1.github.io/RAS304-F26-team1.github.io/
 repo_url: https://github.com/RAS4-F26-2028-team-1/RAS304-F26-team1.github.io
 edit_uri: edit/main/docs/
+
+nav:
+  - Home: index.md
+  - Team Organization: 02-Team-Organization.md
+  - User Needs and Benchmarking: "04- User Needs and Benchmarking.md"
+  - Product Requirements: product-requirements.md
+  - Design Ideation: 05-design-ideation.md
+  - Team Block Diagram: 06-team-block-diagram.md
+  - Software Proposal: "07-Software Proposal.md"
 theme:
   name: material
   custom_dir: custom_theme/
