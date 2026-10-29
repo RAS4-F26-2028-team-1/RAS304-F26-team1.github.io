@@ -1,8 +1,5 @@
 ---
 title: Home
-tags:
-  - tag1
-  - tag2
 ---
 
 <center>
@@ -16,14 +13,17 @@ Professor Thangavelu
 
 </center>
 
-<!-- ## Team Introduction
-> This will be updated as part of the preparation for the External Review.<br>
->    * This needs to be updated to reflect a team introduction.<br>
->    * Content should also help an unfamiliar reader navigate to areas of interest. -->
+## Project Summary
+
+Project OpenField is an open-source, affordable autonomous robot that marks construction layouts directly onto new home foundations. A master microcontroller coordinates four subsystems: a LiDAR board for obstacle detection, a cliff sensor board that detects drop-offs, a motor driver for precise positioning, and a spray system that marks the layout on the floor. The goal is to make construction layout faster and more accurate than marking by hand.
 
 ## Report Sections
 
-- [Software Proposal](07-Software%20Proposal.md)
+1. [Team Organization](02-Team-Organization.md): mission statement, charter, roles, and how we work together
+2. [User Needs and Benchmarking](04-%20User%20Needs%20and%20Benchmarking.md): stakeholders, expert interview, and our 75 user needs
+3. [Design Ideation](05-design-ideation.md): brainstorming, how we chose our concept, and our concept model
+4. [Team Block Diagram](06-team-block-diagram.md): how the five boards connect and why
+5. [Software Proposal](07-Software%20Proposal.md): how each board's software works and why
 
 ## Team Members Datasheet links
 

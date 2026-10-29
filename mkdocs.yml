@@ -1,4 +1,4 @@
-site_name: RAS304 Team Report Template
+site_name: Team 101 - Project OpenField
 site_url: https://ras4-f26-2028-team-1.github.io/RAS304-F26-team1.github.io/
 repo_url: https://github.com/RAS4-F26-2028-team-1/RAS304-F26-team1.github.io
 edit_uri: edit/main/docs/
@@ -59,11 +59,7 @@ extra_javascript:
 not_in_nav: |
   static
   
-copyright: "Copyright &copy; 2025 team-name-here"
+copyright: "Copyright &copy; 2026 Team 101 - Project OpenField"
 
 extra:
   generator: false
-  social:
-    - icon: fontawesome/regular/file-code
-      link: /2025_fall
-      name: 2023 Site    
