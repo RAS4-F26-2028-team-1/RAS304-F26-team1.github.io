@@ -1436,7 +1436,7 @@
 <h3 id="5-how-do-engineers-handle-situations-where-the-ideal-component-is-too-expensive-unavailable-or-difficult-to-source">5. How do engineers handle situations where the ideal component is too expensive, unavailable, or difficult to source?</h3>
 <p><strong>Response:</strong> You can manufacture your own component if the existing option is too expensive or substitute it with another component. If the component is not necessary, it may also be removed entirely. There is usually an alternative solution.</p>
 <h2 id="voice-of-the-customer-benchmarking">Voice of the Customer Benchmarking</h2>
-<p>We benchmarked three existing layout robots to learn what users like and dislike about current products. We searched trade publications, contractor write-ups, dealer review pages, community discussion threads, and product datasheets. Independent user reviews of layout robots are rare because the products are new and mostly sold directly to large contractors, so we used a mix of sources and noted where a source may be biased.</p>
+<p>We benchmarked three existing layout robots to learn what users like and dislike about current products. We searched trade publications, contractor write-ups, dealer review pages, a Hacker News community discussion, and product datasheets. Independent user reviews of layout robots are rare because the products are new and mostly sold directly to large contractors, so we used a mix of sources and noted where a source may be biased.</p>
 <h3 id="search-log">Search Log</h3>
 <table>
 <thead>
@@ -1469,17 +1469,23 @@
 <tr>
 <td>4</td>
 <td>reddit layout robot SitePrint Dusty r/Construction</td>
-<td>Community discussion, trade publication</td>
-<td><a href="https://habr.com/en/news/688834/comments">Habr comment thread on HP SitePrint</a>, <a href="https://www.aecbytes.com/feature/2024/DustyRobotics.html">AECbytes: Dusty Robotics in Action</a> (no relevant Reddit threads found)</td>
+<td>Trade publication</td>
+<td><a href="https://www.aecbytes.com/feature/2024/DustyRobotics.html">AECbytes: Dusty Robotics in Action</a> (no relevant Reddit threads found)</td>
 </tr>
 <tr>
 <td>5</td>
+<td>SitePrint (Hacker News search)</td>
+<td>Community discussion</td>
+<td><a href="https://news.ycombinator.com/item?id=45672235">Hacker News: HP SitePrint thread, 124 comments</a></td>
+</tr>
+<tr>
+<td>6</td>
 <td>Rugged Robotics OR TinyMobileRobots TinySurveyor review contractor feedback</td>
 <td>Dealer review page, product guide</td>
 <td><a href="https://www.aptella.com/product/tiny-surveyor/">Aptella: TinySurveyor</a>, <a href="https://monsenengineering.com/tinysurveyor-terra-vs-plotter/">Monsen Engineering: Terra vs. Plotter</a> (no reviews found for Rugged Robotics)</td>
 </tr>
 <tr>
-<td>6</td>
+<td>7</td>
 <td>rpls.com forum TinySurveyor robot</td>
 <td>Technical forum</td>
 <td><a href="https://rpls.com/forums/">RPLS.com land surveyor forums</a> (no TinySurveyor threads found)</td>
@@ -1507,8 +1513,8 @@
 </table>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image/benchmark-hp-aecmag.jpg" data-desc-position="bottom"><img alt="Screenshot of AEC Magazine article on HP SitePrint" src="../image/benchmark-hp-aecmag.jpg" style="width: 600px;"></a></p>
 <p><em>Figure:</em> AEC Magazine article on HP SitePrint (source of the contractor quotes below).</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image/benchmark-hp-habr.jpg" data-desc-position="bottom"><img alt="Screenshot of Habr comment thread on HP SitePrint" src="../image/benchmark-hp-habr.jpg" style="width: 600px;"></a></p>
-<p><em>Figure:</em> Habr community discussion of HP SitePrint (source of the community comments below).</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image/benchmark-hp-hackernews.jpg" data-desc-position="bottom"><img alt="Screenshot of a contractor's comment on the Hacker News HP SitePrint thread" src="../image/benchmark-hp-hackernews.jpg" style="width: 600px;"></a></p>
+<p><em>Figure:</em> A contractor's comment in the Hacker News discussion of HP SitePrint (source of the community comments below).</p>
 <h5 id="positive-feedback">Positive Feedback</h5>
 <table>
 <thead>
@@ -1535,8 +1541,8 @@
 <td>Explicit</td>
 </tr>
 <tr>
-<td>"SitePrint is able to run over obstacles up to 3/4in thick and continue to print accurately." (Site Precision, an HP dealer)</td>
-<td>B4. The robot keeps printing accurately after crossing small floor obstacles.</td>
+<td>"It can correct course due to deviations in floor surface or obstructions pretty well." (realitysballs, Hacker News)</td>
+<td>B4. The robot keeps marking accurately when the floor surface changes or it meets an obstruction.</td>
 <td>Latent</td>
 </tr>
 </tbody>
@@ -1562,14 +1568,14 @@
 <td>Explicit</td>
 </tr>
 <tr>
-<td>A commenter mocked the product's "original© cartridges," suggesting buyers will be locked into HP's supplies. (NekitGeek, Habr, translated)</td>
-<td>B7. The marking system uses standard, low-cost supplies that are not locked to one vendor.</td>
+<td>The robot is controlled through HP's cloud service, but "many construction sites have no way to get reliable internet connection." (ansgri, Hacker News)</td>
+<td>B7. The robot works without an internet connection.</td>
 <td>Latent</td>
 </tr>
 <tr>
-<td>"The small size of the front wheel on HP's product bothers me somewhat." (AndreyDmitriev, Habr, translated)</td>
-<td>B8. The drivetrain handles rough, uneven job-site floors without getting stuck.</td>
-<td>Latent</td>
+<td>"The issue is you need perfect prep and conditions... They need it to be perfectly broom, swept and clean." (quantumcotton, contractor, Hacker News)</td>
+<td>B8. The robot marks reliably on floors that are not perfectly clean or smooth.</td>
+<td>Explicit</td>
 </tr>
 <tr>
 <td>Summary: The robot stops when it reaches a ledge over 2.5 inches or an obstacle, and the obstacle must be cleared and the area reprinted. (AEC Magazine)</td>
@@ -1758,7 +1764,7 @@
 <li><strong>Accuracy is the top need.</strong> Users of every product judged it first on whether the marks matched the design (B1, B13, B21). This supports our 1/16-inch tolerance need (#21).</li>
 <li><strong>Cost and ownership are the biggest complaints.</strong> HP SitePrint costs about 50,000 USD plus printing fees, and Dusty can only be rented by subscription (B6, B16). This supports our goal of an open-source, affordable robot.</li>
 <li><strong>Job-site conditions cause problems.</strong> Cold, wind, dust, ledges, and rough ground all limited current products (B8, B14, B17, B24). This supports our environmental needs and our choice of treads for traction.</li>
-<li><strong>Users want independence from expensive add-ons.</strong> Both HP and TinySurveyor need external survey equipment, and HP's supplies may be locked to one vendor (B5, B7, B25, B26).</li>
+<li><strong>Users want independence from expensive add-ons.</strong> Both HP and TinySurveyor need external survey equipment, and HP's robot needs an internet connection to its cloud service (B5, B7, B25, B26).</li>
 </ul>
 <h2 id="organizing-our-needs">Organizing Our Needs</h2>
 <p>We wrote our needs in a shared document, then printed them and cut them into individual slips so we could physically sort them. The photos below show the slips at each stage: unorganized, grouped into categories, and sorted.</p>
