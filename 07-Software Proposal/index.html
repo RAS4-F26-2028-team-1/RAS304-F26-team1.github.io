@@ -912,7 +912,7 @@
 
 <h1 id="software-proposal">Software Proposal</h1>
 <h2 id="overview">Overview</h2>
-<p>This page describes the planned logical behavior of the software running on each microcontroller in our system. Each subsystem has its own activity diagram, created by the team member responsible for it. The Master board coordinates the subsystems: it reads data from the LiDAR and cliff sensors, decides what to do, and then commands the motor driver and the spray system.</p>
+<p>Each microcontroller has its own activity diagram, made by the team member who owns it. The Master reads the LiDAR and cliff sensors, decides what to do, and commands the motor driver and spray system.</p>
 <table>
 <thead>
 <tr>
@@ -951,7 +951,7 @@
 </table>
 <h2 id="software-diagram">Software Diagram</h2>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image/SoftwareProposal.png" data-desc-position="bottom"><img alt="Software activity diagrams for all subsystems" src="../image/SoftwareProposal.png"></a></p>
-<p><strong>Figure 1:</strong> UML activity diagrams for the Master, LiDAR, Cliff, Motor Driver, and Spray microcontrollers. Click the image to enlarge.</p>
+<p><strong>Figure 1:</strong> UML activity diagrams for the Master, LiDAR, Cliff, Motor Driver, and Spray microcontrollers.</p>
 <p>Diagram source file: <a href="../image/SoftwareProposal.drawio">SoftwareProposal.drawio</a> (open it with <a href="https://app.diagrams.net">draw.io</a> using <em>File → Open from → Device</em>).</p>
 <h2 id="subsystem-descriptions">Subsystem Descriptions</h2>
 <h3 id="master">Master</h3>
