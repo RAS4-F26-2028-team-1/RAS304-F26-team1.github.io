@@ -64,7 +64,7 @@ We benchmarked three existing layout robots to learn what users like and dislike
 
 | Product Under Discussion | Vendor | Price | Description |
 | --- | --- | --- | --- |
-| HP SitePrint | HP | About &#36;50,000 for the robot, plus &#36;0.20 per square foot printed (includes software, service, and supplies) | A compact robot that prints layout lines, points, and text onto floors. It is guided by an external robotic total station (Trimble, Topcon, or Leica). |
+| HP SitePrint | HP | About 50,000 USD for the robot, plus 20 cents (USD) per square foot printed (includes software, service, and supplies) | A compact robot that prints layout lines, points, and text onto floors. It is guided by an external robotic total station (Trimble, Topcon, or Leica). |
 
 ![Screenshot of AEC Magazine article on HP SitePrint](image/benchmark-hp-aecmag.jpg){style="width: 600px;"}
 
@@ -88,7 +88,7 @@ We benchmarked three existing layout robots to learn what users like and dislike
 | Voice of the Customer | Restated Customer Need | Type |
 | --- | --- | --- |
 | Summary: The robot needs a robotic total station from a supported brand, plus two to three control points, and stops if it loses line of sight for more than five seconds. (AEC Magazine) | B5. The robot keeps track of its position without depending on expensive external survey equipment. | Latent |
-| Summary: The robot costs about &#36;50,000, plus a per-square-foot printing fee. (AEC Magazine) | B6. The system is affordable for small contractors. | Explicit |
+| Summary: The robot costs about 50,000 USD, plus a per-square-foot printing fee. (AEC Magazine) | B6. The system is affordable for small contractors. | Explicit |
 | A commenter mocked the product's "original© cartridges," suggesting buyers will be locked into HP's supplies. (NekitGeek, Habr, translated) | B7. The marking system uses standard, low-cost supplies that are not locked to one vendor. | Latent |
 | "The small size of the front wheel on HP's product bothers me somewhat." (AndreyDmitriev, Habr, translated) | B8. The drivetrain handles rough, uneven job-site floors without getting stuck. | Latent |
 | Summary: The robot stops when it reaches a ledge over 2.5 inches or an obstacle, and the obstacle must be cleared and the area reprinted. (AEC Magazine) | B9. The robot continues marking around obstacles without operator help. | Latent |
@@ -153,7 +153,7 @@ We benchmarked three existing layout robots to learn what users like and dislike
 ### Benchmarking Takeaways
 
 - **Accuracy is the top need.** Users of every product judged it first on whether the marks matched the design (B1, B13, B21). This supports our 1/16-inch tolerance need (#21).
-- **Cost and ownership are the biggest complaints.** HP SitePrint costs about &#36;50,000 plus printing fees, and Dusty can only be rented by subscription (B6, B16). This supports our goal of an open-source, affordable robot.
+- **Cost and ownership are the biggest complaints.** HP SitePrint costs about 50,000 USD plus printing fees, and Dusty can only be rented by subscription (B6, B16). This supports our goal of an open-source, affordable robot.
 - **Job-site conditions cause problems.** Cold, wind, dust, ledges, and rough ground all limited current products (B8, B14, B17, B24). This supports our environmental needs and our choice of treads for traction.
 - **Users want independence from expensive add-ons.** Both HP and TinySurveyor need external survey equipment, and HP's supplies may be locked to one vendor (B5, B7, B25, B26).
 
