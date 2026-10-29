@@ -6,11 +6,11 @@ title: Team Block Diagram
 
 ![OpenField team block diagram](image/BlockDiagram.png)
 
-**Figure 1:** Team block diagram for Project OpenField, showing the Master board and the four subsystem boards. Click the image to enlarge.
+**Figure 1:** Team block diagram for Project OpenField, showing the Master board and the four subsystem boards.
 
 ## How the System Is Connected
 
-OpenField uses a **hub-and-spoke** layout. One **Master** board sits in the middle and connects to four subsystem boards, one designed by each team member:
+One **Master** board connects to four subsystem boards, one per team member:
 
 | Subsystem | Owner | Key Components | Connection to Master |
 | --- | --- | --- | --- |

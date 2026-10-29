@@ -39,7 +39,7 @@ title: User Needs and Benchmarking
 
 ## Voice of the Customer Benchmarking
 
-We benchmarked three existing layout robots to learn what users like and dislike about current products. We searched trade publications, contractor write-ups, dealer review pages, a Hacker News community discussion, and product datasheets. Independent user reviews of layout robots are rare because the products are new and mostly sold directly to large contractors, so we used a mix of sources and noted where a source may be biased.
+We benchmarked three existing layout robots using trade publications, contractor write-ups, dealer review pages, a Hacker News discussion, and product datasheets.
 
 ### Search Log
 

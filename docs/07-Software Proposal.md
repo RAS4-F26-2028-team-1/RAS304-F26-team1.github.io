@@ -6,7 +6,7 @@ title: Software Proposal
 
 ## Overview
 
-This page describes the planned logical behavior of the software running on each microcontroller in our system. Each subsystem has its own activity diagram, created by the team member responsible for it. The Master board coordinates the subsystems: it reads data from the LiDAR and cliff sensors, decides what to do, and then commands the motor driver and the spray system.
+Each microcontroller has its own activity diagram, made by the team member who owns it. The Master reads the LiDAR and cliff sensors, decides what to do, and commands the motor driver and spray system.
 
 | Subsystem | Owner | Role |
 | --- | --- | --- |
@@ -20,7 +20,7 @@ This page describes the planned logical behavior of the software running on each
 
 ![Software activity diagrams for all subsystems](image/SoftwareProposal.png)
 
-**Figure 1:** UML activity diagrams for the Master, LiDAR, Cliff, Motor Driver, and Spray microcontrollers. Click the image to enlarge.
+**Figure 1:** UML activity diagrams for the Master, LiDAR, Cliff, Motor Driver, and Spray microcontrollers.
 
 Diagram source file: [SoftwareProposal.drawio](image/SoftwareProposal.drawio) (open it with [draw.io](https://app.diagrams.net) using *File → Open from → Device*).
 
