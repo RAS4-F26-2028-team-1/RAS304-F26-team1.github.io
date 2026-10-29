@@ -39,7 +39,7 @@ title: User Needs and Benchmarking
 
 ## Voice of the Customer Benchmarking
 
-We benchmarked three existing layout robots to learn what users like and dislike about current products. We searched trade publications, contractor write-ups, dealer review pages, community discussion threads, and product datasheets. Independent user reviews of layout robots are rare because the products are new and mostly sold directly to large contractors, so we used a mix of sources and noted where a source may be biased.
+We benchmarked three existing layout robots to learn what users like and dislike about current products. We searched trade publications, contractor write-ups, dealer review pages, a Hacker News community discussion, and product datasheets. Independent user reviews of layout robots are rare because the products are new and mostly sold directly to large contractors, so we used a mix of sources and noted where a source may be biased.
 
 ### Search Log
 
@@ -48,9 +48,10 @@ We benchmarked three existing layout robots to learn what users like and dislike
 | 1 | HP SitePrint layout robot review contractor reddit | Trade publication | [AEC Magazine: HP SitePrint](https://aecmag.com/construction/hp-siteprint-the-robot-that-prints-11-plans/) |
 | 2 | Dusty Robotics FieldPrinter review reddit construction layout problems | Dealer comparison article | [Site Precision: HP SitePrint vs. Dusty Robotics](https://siteprecisioninc.com/article/hp-siteprint-vs-dusty-robotics-which-layout-robot-is-better-for-construction/) |
 | 3 | Dusty Robotics layout robot (Hacker News) | Contractor write-up | [Robins & Morton: Five Ways Dusty Robotics Transforms Layout](https://www.robinsmorton.com/five-ways-dusty-robotics-transforms-layout-processes/) (no Hacker News thread found) |
-| 4 | reddit layout robot SitePrint Dusty r/Construction | Community discussion, trade publication | [Habr comment thread on HP SitePrint](https://habr.com/en/news/688834/comments), [AECbytes: Dusty Robotics in Action](https://www.aecbytes.com/feature/2024/DustyRobotics.html) (no relevant Reddit threads found) |
-| 5 | Rugged Robotics OR TinyMobileRobots TinySurveyor review contractor feedback | Dealer review page, product guide | [Aptella: TinySurveyor](https://www.aptella.com/product/tiny-surveyor/), [Monsen Engineering: Terra vs. Plotter](https://monsenengineering.com/tinysurveyor-terra-vs-plotter/) (no reviews found for Rugged Robotics) |
-| 6 | rpls.com forum TinySurveyor robot | Technical forum | [RPLS.com land surveyor forums](https://rpls.com/forums/) (no TinySurveyor threads found) |
+| 4 | reddit layout robot SitePrint Dusty r/Construction | Trade publication | [AECbytes: Dusty Robotics in Action](https://www.aecbytes.com/feature/2024/DustyRobotics.html) (no relevant Reddit threads found) |
+| 5 | SitePrint (Hacker News search) | Community discussion | [Hacker News: HP SitePrint thread, 124 comments](https://news.ycombinator.com/item?id=45672235) |
+| 6 | Rugged Robotics OR TinyMobileRobots TinySurveyor review contractor feedback | Dealer review page, product guide | [Aptella: TinySurveyor](https://www.aptella.com/product/tiny-surveyor/), [Monsen Engineering: Terra vs. Plotter](https://monsenengineering.com/tinysurveyor-terra-vs-plotter/) (no reviews found for Rugged Robotics) |
+| 7 | rpls.com forum TinySurveyor robot | Technical forum | [RPLS.com land surveyor forums](https://rpls.com/forums/) (no TinySurveyor threads found) |
 
 ### Benchmark 1: HP SitePrint
 
@@ -62,9 +63,9 @@ We benchmarked three existing layout robots to learn what users like and dislike
 
 *Figure:* AEC Magazine article on HP SitePrint (source of the contractor quotes below).
 
-![Screenshot of Habr comment thread on HP SitePrint](image/benchmark-hp-habr.jpg){style="width: 600px;"}
+![Screenshot of a contractor's comment on the Hacker News HP SitePrint thread](image/benchmark-hp-hackernews.jpg){style="width: 600px;"}
 
-*Figure:* Habr community discussion of HP SitePrint (source of the community comments below).
+*Figure:* A contractor's comment in the Hacker News discussion of HP SitePrint (source of the community comments below).
 
 ##### Positive Feedback
 
@@ -73,7 +74,7 @@ We benchmarked three existing layout robots to learn what users like and dislike
 | "We've been within, I believe, one sixteenth or one sixty-fourth of an inch on every single point." (Garret Wheat, project manager, Hoar Construction, AEC Magazine) | B1. The robot places layout marks within 1/16 inch of the design. | Explicit |
 | Skanska reported a floor layout taking "45 mins instead of 7 hours." (AEC Magazine) | B2. The system completes a floor layout much faster than manual layout. | Explicit |
 | L5 Drywall reported laying out rooms with "one guy instead of three." (AEC Magazine) | B3. A single operator can run the layout process. | Explicit |
-| "SitePrint is able to run over obstacles up to 3/4in thick and continue to print accurately." (Site Precision, an HP dealer) | B4. The robot keeps printing accurately after crossing small floor obstacles. | Latent |
+| "It can correct course due to deviations in floor surface or obstructions pretty well." (realitysballs, Hacker News) | B4. The robot keeps marking accurately when the floor surface changes or it meets an obstruction. | Latent |
 
 ##### Negative Feedback
 
@@ -81,8 +82,8 @@ We benchmarked three existing layout robots to learn what users like and dislike
 | --- | --- | --- |
 | Summary: The robot needs a robotic total station from a supported brand, plus two to three control points, and stops if it loses line of sight for more than five seconds. (AEC Magazine) | B5. The robot keeps track of its position without depending on expensive external survey equipment. | Latent |
 | Summary: The robot costs about 50,000 USD, plus a per-square-foot printing fee. (AEC Magazine) | B6. The system is affordable for small contractors. | Explicit |
-| A commenter mocked the product's "original© cartridges," suggesting buyers will be locked into HP's supplies. (NekitGeek, Habr, translated) | B7. The marking system uses standard, low-cost supplies that are not locked to one vendor. | Latent |
-| "The small size of the front wheel on HP's product bothers me somewhat." (AndreyDmitriev, Habr, translated) | B8. The drivetrain handles rough, uneven job-site floors without getting stuck. | Latent |
+| The robot is controlled through HP's cloud service, but "many construction sites have no way to get reliable internet connection." (ansgri, Hacker News) | B7. The robot works without an internet connection. | Latent |
+| "The issue is you need perfect prep and conditions... They need it to be perfectly broom, swept and clean." (quantumcotton, contractor, Hacker News) | B8. The robot marks reliably on floors that are not perfectly clean or smooth. | Explicit |
 | Summary: The robot stops when it reaches a ledge over 2.5 inches or an obstacle, and the obstacle must be cleared and the area reprinted. (AEC Magazine) | B9. The robot continues marking around obstacles without operator help. | Latent |
 
 ### Benchmark 2: Dusty Robotics FieldPrinter
@@ -147,7 +148,7 @@ We benchmarked three existing layout robots to learn what users like and dislike
 - **Accuracy is the top need.** Users of every product judged it first on whether the marks matched the design (B1, B13, B21). This supports our 1/16-inch tolerance need (#21).
 - **Cost and ownership are the biggest complaints.** HP SitePrint costs about 50,000 USD plus printing fees, and Dusty can only be rented by subscription (B6, B16). This supports our goal of an open-source, affordable robot.
 - **Job-site conditions cause problems.** Cold, wind, dust, ledges, and rough ground all limited current products (B8, B14, B17, B24). This supports our environmental needs and our choice of treads for traction.
-- **Users want independence from expensive add-ons.** Both HP and TinySurveyor need external survey equipment, and HP's supplies may be locked to one vendor (B5, B7, B25, B26).
+- **Users want independence from expensive add-ons.** Both HP and TinySurveyor need external survey equipment, and HP's robot needs an internet connection to its cloud service (B5, B7, B25, B26).
 
 ## Organizing Our Needs
 
