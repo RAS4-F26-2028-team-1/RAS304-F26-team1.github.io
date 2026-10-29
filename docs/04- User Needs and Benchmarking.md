@@ -17,31 +17,23 @@ title: User Needs and Benchmarking
 
 **Jake Okun**, Instructional Professional, School of Manufacturing Systems and Networks, Ira A. Fulton Schools of Engineering, Arizona State University. He holds degrees in Manufacturing Engineering and in Robotics and Autonomous Systems (Systems Engineering concentration), and works on wearable robotics, exoskeletons, and industrial automation.
 
-### 1. In the robotics field, what are some issues you have encountered when troubleshooting your projects?
-
-For example, in current exoskeleton projects, what recurring issues have you noticed during experimental trials?
-
-### 2. Have you ever experienced communication failures between devices while working on a project? If so, what is an example?
-
-*Context: Our project will consist of hardware design and troubleshooting communication between multiple controllers.*
-
-### 3. When designing a robotics system with multiple components or modules, what are some of the biggest integration problems you have encountered?
+### 1. When designing a robotics system with multiple components or modules, what are some of the biggest integration problems you have encountered?
 
 **Response:** Measurements and components not fitting together properly.
 
-### 4. What factors do you consider when selecting components such as sensors, motors, microcontrollers, or motor drivers for a robotics project?
+### 2. What factors do you consider when selecting components such as sensors, motors, microcontrollers, or motor drivers for a robotics project?
 
 **Response:** Power supply, dimensions, use case, customer requirements, and budget.
 
-### 5. How important is designing a product for assembly, and what should engineers consider before they begin manufacturing a prototype?
+### 3. How important is designing a product for assembly, and what should engineers consider before they begin manufacturing a prototype?
 
 **Response:** One of the biggest considerations is tolerance and making sure everything fits together properly. Machining capabilities also need to be considered because, without specific machinery, you may not be able to manufacture the part you originally designed.
 
-### 6. How do you decide whether a component should be 3D printed, machined, purchased, or manufactured another way?
+### 4. How do you decide whether a component should be 3D printed, machined, purchased, or manufactured another way?
 
 **Response:** It depends on the use case. If a stronger part is required, it should generally be machined or purchased. If an appropriate component is available off the shelf, it should be purchased. If something needs to be manufactured quickly or does not require as much strength, 3D printing can be a good option.
 
-### 7. How do engineers handle situations where the ideal component is too expensive, unavailable, or difficult to source?
+### 5. How do engineers handle situations where the ideal component is too expensive, unavailable, or difficult to source?
 
 **Response:** You can manufacture your own component if the existing option is too expensive or substitute it with another component. If the component is not necessary, it may also be removed entirely. There is usually an alternative solution.
 
