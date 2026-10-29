@@ -45,6 +45,114 @@ For example, in current exoskeleton projects, what recurring issues have you not
 
 **Response:** You can manufacture your own component if the existing option is too expensive or substitute it with another component. If the component is not necessary, it may also be removed entirely. There is usually an alternative solution.
 
+## Voice of the Customer Benchmarking
+
+We benchmarked three existing layout robots to learn what users like and dislike about current products. We searched trade publications, contractor write-ups, dealer review pages, community discussion threads, and product datasheets. Independent user reviews of layout robots are rare because the products are new and mostly sold directly to large contractors, so we used a mix of sources and noted where a source may be biased.
+
+### Search Log
+
+| # | Search Keywords | Source Type | Results Used |
+| --- | --- | --- | --- |
+| 1 | HP SitePrint layout robot review contractor reddit | Trade publication | [AEC Magazine: HP SitePrint](https://aecmag.com/construction/hp-siteprint-the-robot-that-prints-11-plans/) |
+| 2 | Dusty Robotics FieldPrinter review reddit construction layout problems | Dealer comparison article | [Site Precision: HP SitePrint vs. Dusty Robotics](https://siteprecisioninc.com/article/hp-siteprint-vs-dusty-robotics-which-layout-robot-is-better-for-construction/) |
+| 3 | Dusty Robotics layout robot (Hacker News) | Contractor write-up | [Robins & Morton: Five Ways Dusty Robotics Transforms Layout](https://www.robinsmorton.com/five-ways-dusty-robotics-transforms-layout-processes/) (no Hacker News thread found) |
+| 4 | reddit layout robot SitePrint Dusty r/Construction | Community discussion, trade publication | [Habr comment thread on HP SitePrint](https://habr.com/en/news/688834/comments), [AECbytes: Dusty Robotics in Action](https://www.aecbytes.com/feature/2024/DustyRobotics.html) (no relevant Reddit threads found) |
+| 5 | Rugged Robotics OR TinyMobileRobots TinySurveyor review contractor feedback | Dealer review page, product guide | [Aptella: TinySurveyor](https://www.aptella.com/product/tiny-surveyor/), [Monsen Engineering: Terra vs. Plotter](https://monsenengineering.com/tinysurveyor-terra-vs-plotter/) (no reviews found for Rugged Robotics) |
+| 6 | rpls.com forum TinySurveyor robot | Technical forum | [RPLS.com land surveyor forums](https://rpls.com/forums/) (no TinySurveyor threads found) |
+
+### Benchmark 1: HP SitePrint
+
+| Product Under Discussion | Vendor | Price | Description |
+| --- | --- | --- | --- |
+| HP SitePrint | HP | About $50,000 for the robot, plus $0.20 per square foot printed (includes software, service, and supplies) | A compact robot that prints layout lines, points, and text onto floors. It is guided by an external robotic total station (Trimble, Topcon, or Leica). |
+
+![Screenshot of AEC Magazine article on HP SitePrint](image/benchmark-hp-aecmag.jpg){style="width: 600px;"}
+**Figure:** AEC Magazine article on HP SitePrint (source of the contractor quotes below).
+
+![Screenshot of Habr comment thread on HP SitePrint](image/benchmark-hp-habr.jpg){style="width: 600px;"}
+**Figure:** Habr community discussion of HP SitePrint (source of the community comments below).
+
+##### Positive Feedback
+
+| Voice of the Customer | Restated Customer Need | Type |
+| --- | --- | --- |
+| "We've been within, I believe, one sixteenth or one sixty-fourth of an inch on every single point." (Garret Wheat, project manager, Hoar Construction, AEC Magazine) | B1. The robot places layout marks within 1/16 inch of the design. | Explicit |
+| Skanska reported a floor layout taking "45 mins instead of 7 hours." (AEC Magazine) | B2. The system completes a floor layout much faster than manual layout. | Explicit |
+| L5 Drywall reported laying out rooms with "one guy instead of three." (AEC Magazine) | B3. A single operator can run the layout process. | Explicit |
+| "SitePrint is able to run over obstacles up to 3/4in thick and continue to print accurately." (Site Precision, an HP dealer) | B4. The robot keeps printing accurately after crossing small floor obstacles. | Latent |
+
+##### Negative Feedback
+
+| Voice of the Customer | Restated Customer Need | Type |
+| --- | --- | --- |
+| Summary: The robot needs a robotic total station from a supported brand, plus two to three control points, and stops if it loses line of sight for more than five seconds. (AEC Magazine) | B5. The robot keeps track of its position without depending on expensive external survey equipment. | Latent |
+| Summary: The robot costs about $50,000, plus a per-square-foot printing fee. (AEC Magazine) | B6. The system is affordable for small contractors. | Explicit |
+| A commenter mocked the product's "original© cartridges," suggesting buyers will be locked into HP's supplies. (NekitGeek, Habr, translated) | B7. The marking system uses standard, low-cost supplies that are not locked to one vendor. | Latent |
+| "The small size of the front wheel on HP's product bothers me somewhat." (AndreyDmitriev, Habr, translated) | B8. The drivetrain handles rough, uneven job-site floors without getting stuck. | Latent |
+| Summary: The robot stops when it reaches a ledge over 2.5 inches or an obstacle, and the obstacle must be cleared and the area reprinted. (AEC Magazine) | B9. The robot continues marking around obstacles without operator help. | Latent |
+
+### Benchmark 2: Dusty Robotics FieldPrinter
+
+| Product Under Discussion | Vendor | Price | Description |
+| --- | --- | --- | --- |
+| FieldPrinter (FieldPrint Platform) | Dusty Robotics | Varies: subscription only, priced by layout scope; the hardware is never owned | A layout robot that prints lines, text, and symbols from CAD or BIM models onto concrete slabs. It is guided by its own laser tracker and is sold in North America only. |
+
+![Screenshot of Robins & Morton article on Dusty Robotics](image/benchmark-dusty-robinsmorton.jpg){style="width: 600px;"}
+**Figure:** Robins & Morton's write-up of using Dusty Robotics on their projects (source of the contractor quotes below).
+
+##### Positive Feedback
+
+| Voice of the Customer | Restated Customer Need | Type |
+| --- | --- | --- |
+| "They were all able to competently operate it with just one day of training." (Robins & Morton) | B10. New operators can learn the system in one day. | Explicit |
+| "In just five days, we printed every trade contractor's work for 20,000 square feet." (Robins & Morton) | B11. The system lays out every trade's work on a floor much faster than manual methods. | Explicit |
+| "We're taking away the risk that someone reads the wrong number off the drawings." (Robins & Morton) | B12. The system prints directly from the digital plan, so no one has to read measurements by hand. | Explicit |
+| "It prints very accurately according to the model. It can print anything, and it can print fast." (Robins & Morton) | B13. The robot prints lines, text, and symbols that match the model. | Explicit |
+
+##### Negative Feedback
+
+| Voice of the Customer | Restated Customer Need | Type |
+| --- | --- | --- |
+| In extreme cold (18 °F) and high wind, "we ended up having to bring it inside and let it warm up." (Robins & Morton) | B14. The robot operates reliably in cold and windy outdoor conditions. | Explicit |
+| "If we would have had more up-front time, we could have leveraged it more effectively." (Robins & Morton) | B15. The system can be put to use without lengthy up-front planning. | Latent |
+| "Dusty is subscription only," and contractors "never own the hardware." (Site Precision, an HP dealer, so possibly biased) | B16. Contractors can own the robot outright. | Explicit |
+| The laser tracker is "built for controlled environments, not construction sites" and "carries a low IP54 rating." (Site Precision) | B17. The positioning hardware withstands job-site dust and moisture. | Latent |
+| The main support center is in California, which "can prove to be difficult due to time zone differences." (Site Precision) | B18. Users can get help or fix problems without relying on one distant vendor. | Latent |
+
+### Benchmark 3: TinyMobileRobots TinySurveyor
+
+| Product Under Discussion | Vendor | Price | Description |
+| --- | --- | --- | --- |
+| TinySurveyor (Terra and Plotter models) | TinyMobileRobots (sold through dealers such as Aptella and Monsen Engineering) | Varies: quoted by dealers | An outdoor line-marking and stake-out robot that sprays marks using GNSS or a total station for positioning. It runs about 8 hours per charge and uses standard aerosol paint cans. |
+
+![Screenshot of Aptella TinySurveyor product and review page](image/benchmark-tiny-aptella.jpg){style="width: 600px;"}
+**Figure:** Aptella's TinySurveyor page, which includes the customer reviews below.
+
+##### Positive Feedback
+
+| Voice of the Customer | Restated Customer Need | Type |
+| --- | --- | --- |
+| "Since using the Tiny Surveyor, accuracy is improved and the efficiency has definitely been improved." (Paul Farmilo, Shire of Esperance) | B19. The robot marks more accurately and efficiently than manual layout. | Explicit |
+| "You're not having to send a surveyor out to site for 2-3 hours." (Dayne Corps, Karratha Earthmoving) | B20. A regular crew member can complete marking without a dedicated surveyor. | Explicit |
+| "So far we haven't had an instance where we set out a line onsite that's been incorrect." (James Sharpe, CPB Contractors) | B21. Every line the robot marks matches the design. | Explicit |
+| "With the Tiny Surveyor it took 2.5 hours. There's a definite 4-to-1 ratio there." (Jon Rasmussen) | B22. The robot cuts marking time to a fraction of manual time. | Explicit |
+
+##### Negative Feedback
+
+| Voice of the Customer | Restated Customer Need | Type |
+| --- | --- | --- |
+| Summary: Accuracy is listed as "2-3cm," far coarser than the 1/16-inch tolerance needed for building layout. (Aptella datasheet) | B23. The system marks within building-layout tolerance, not just roadwork tolerance. | Explicit |
+| Summary: Rough ground needs the Terra model, while the Plotter is "optimized for flat surfaces," so one model does not cover both. (Monsen Engineering guide) | B24. A single robot handles both rough ground and finished slabs. | Latent |
+| Summary: The robot takes standard aerosol cans, but "the nozzle must be replaced with the standardised nozzle supplied with the robot." (Aptella datasheet) | B25. Marking supplies can be replaced with standard parts. | Latent |
+| Summary: Centimeter accuracy requires a GNSS receiver, and millimeter precision requires a robotic total station. (Monsen Engineering guide) | B26. The robot positions itself accurately without extra survey instruments. | Latent |
+
+### Benchmarking Takeaways
+
+- **Accuracy is the top need.** Users of every product judged it first on whether the marks matched the design (B1, B13, B21). This supports our 1/16-inch tolerance need (#21).
+- **Cost and ownership are the biggest complaints.** HP SitePrint costs about $50,000 plus printing fees, and Dusty can only be rented by subscription (B6, B16). This supports our goal of an open-source, affordable robot.
+- **Job-site conditions cause problems.** Cold, wind, dust, ledges, and rough ground all limited current products (B8, B14, B17, B24). This supports our environmental needs and our choice of treads for traction.
+- **Users want independence from expensive add-ons.** Both HP and TinySurveyor need external survey equipment, and HP's supplies may be locked to one vendor (B5, B7, B25, B26).
+
 ## Organizing Our Needs
 
 We wrote our needs in a shared document, then printed them and cut them into individual slips so we could physically sort them. The photos below show the slips at each stage: unorganized, grouped into categories, and sorted.
